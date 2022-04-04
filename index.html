@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Guess The Word">
+    <meta name="author" content="Kacper Ołdziejewski">
+    <title>Guess The Word</title>
+    <link href="style.css" rel="stylesheet">
+    <!-- Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <!-- Jquery Import -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script
+        src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
+        integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA="
+        crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="logo">
+            Guess The Word!
+        </div>
+
+        <div id="word-box">
+            <script src="script.js"></script>
+        </div>
+
+        <div id="your-guess">
+            <input type="text" id="user-letter" name="word-insert" placeholder="Enter the letter" maxlength = "1"><br>
+            <button id="btn" onclick="Check()">Check</button>
+        </div>
+    </div>
+</body>
+
+</html>
